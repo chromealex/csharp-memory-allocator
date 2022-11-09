@@ -1,0 +1,19 @@
+{
+    "name": "ME.MemoryAllocator.Tests",
+    "rootNamespace": "",
+    "references": [
+        "ME.MemoryAllocator",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

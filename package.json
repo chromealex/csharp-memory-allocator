@@ -1,0 +1,31 @@
+{
+  "name": "com.me.memoryallocator",
+  "version": "1.0.0",
+  "displayName": "ME.MemoryAllocator",
+  "description": "ME.MemoryAllocator - custom memory allocator with CopyFrom method and basic collections like a List, Dictionary, Queue, Stack, SparseSet.",
+  "unity": "2020.3",
+  "documentationUrl": "https://github.com/chromealex/ecs/blob/master/README.md",
+  "dependencies": {
+    "com.unity.burst": "1.5.6"
+  },
+  "scopedRegistries": [
+    {
+      "name": "General",
+      "url": "https://github.com/chromealex/ecs-submodule.git",
+      "scopes": [
+        "com.me.ecs"
+      ]
+    }
+  ],
+ "keywords": [
+    "csharp",
+    "memory",
+    "mamoryallocator",
+    "allocator",
+    "collections"
+  ],
+  "author": {
+    "name": "Alex Silaev",
+    "email": "chrome.alex@gmail.com"
+  }
+}
