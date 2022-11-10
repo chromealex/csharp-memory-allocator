@@ -16,7 +16,6 @@ namespace ME.MA {
     
     public static class E {
 
-        [System.Diagnostics.Conditional("WORLD_EXCEPTIONS")]
         public static void RANGE(int index, int lowBound, int highBound) {
             
             if (index < lowBound || index >= highBound) {
@@ -27,7 +26,6 @@ namespace ME.MA {
             
         }
 
-        [System.Diagnostics.Conditional("WORLD_EXCEPTIONS")]
         public static void IS_CREATED<T>(T collection) where T : ME.MA.IIsCreated {
 
             if (collection.isCreated == false) {
